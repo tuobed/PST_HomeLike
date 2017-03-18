@@ -79,5 +79,16 @@
         android:layout_centerHorizontal="true"
         android:id="@+id/goodbadAnswer" />
 
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/quitButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/sound"
+        android:id="@+id/listenButton"
+        android:layout_alignRight="@+id/previousButton"
+        android:layout_alignEnd="@+id/previousButton" />
+
 
 </RelativeLayout>

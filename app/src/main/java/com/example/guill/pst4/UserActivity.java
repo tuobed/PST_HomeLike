@@ -45,7 +45,7 @@ public class UserActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //Intent registerIntent = new Intent(UserActivity.this, Image.class);
-                Intent registerIntent = new Intent(UserActivity.this, GameActivity.class);
+                Intent registerIntent = new Intent(UserActivity.this, Memory.class);
                 registerIntent.putExtra("name", name);
                 registerIntent.putExtra("username", username);
                 UserActivity.this.startActivity(registerIntent);
